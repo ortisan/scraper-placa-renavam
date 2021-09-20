@@ -21,7 +21,7 @@ NUMERO_TOTAL_PAGINAS = 20 # Alterar para o numero total de paginas
 # Criacao do driver e carregamento da pagina inicial
 options = webdriver.ChromeOptions()
 # Salva a sessao do usuario na pasta
-options.add_argument('user-data-dir=C:\\teste1')
+options.add_argument('user-data-dir=C:\\scrapper-placa-renavam')
 driver = webdriver.Chrome('./chromedriver', options=options)
 driver.get("https://portalservicos.denatran.serpro.gov.br/#/meusVeiculos")
 
